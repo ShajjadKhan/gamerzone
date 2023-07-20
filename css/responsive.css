@@ -1,0 +1,141 @@
+@media (max-width:1024px) {
+    .container{
+        max-width: 950px;
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 700px;
+    }
+    .res-col{
+        flex-direction: column;
+    }
+    .menus{
+        margin-top: 20px;
+    }
+    .menus ul li{
+        margin-top: 20px;
+    }
+
+    .home_img img{
+       width: 100%;
+        object-fit: contain;
+    }
+    .home_content{
+        order: 2;
+        margin-top: 50px;
+    }
+    .home_img{
+        order: 1;
+      
+    }
+    .gallery .row{
+
+        grid-template-columns: repeat(2,1fr);
+    }
+   .main_title{
+    font-size: 30px;
+   }
+   .card{
+    margin: 0 auto;
+}
+.download_content{
+    width: 100%;
+}
+.download_img{
+    margin-top: 20px;
+    
+}
+.download_img img{
+    width: 100%;
+}
+.download_content h1{
+    text-align: center;
+}
+.download_content p{
+    text-align: center;
+}
+.grid_box{
+       grid-template-columns: repeat(4,150px);
+       gap: 30px;
+}
+.foot_cat ul{
+    grid-template-columns: repeat(4,1fr);
+}
+.foot_cat ul li{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.foot_logo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.foot_logo img{
+    margin-top: 50px;
+}
+.foot_cat_two ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+footer{
+    height: 800px;
+}
+}
+
+@media (max-width:425px) {
+    .container{
+        max-width: 400px;
+    }
+    .foot_cat ul{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .gallery .row{
+
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        margin: 0 auto;
+    }
+    .sticky_imgg{
+        width: 200px;
+        left: -2%;
+    }
+    .grid_box{
+        grid-template-columns: repeat(3,100px);
+    }
+    .category_card img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .category_card p{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+ 
+}
+
+@media (max-width:375px) {
+    .container{
+        max-width: 300px;
+    }
+    .home_content h1{
+        font-size: 30px;
+    }
+    .home_content h3{
+        font-size: 40px;
+    }
+}
+
+@media (max-width:320px) {
+    .container{
+        max-width: 280px;
+    }
+}
+
+@media (max-width:300px) {
+    .container{
+        max-width: 240px;
+    }
+}
